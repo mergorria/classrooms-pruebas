@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.villa-container {
+    width: min(1200px, 95vw);
+    aspect-ratio: 1364 / 768;
+    /* Apuntamos al archivo local que está en la misma carpeta */
+    background: center / contain no-repeat url('/home/mvgorria/Documentos/CODES/Pruebas aula nueva/villa_virtual/fondoVILLA partes.png');
+    background-color: #d8ede3; /* Color de respaldo por si acaso */
+    border-radius: 12px;
+}
